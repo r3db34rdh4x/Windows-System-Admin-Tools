@@ -1,0 +1,59 @@
+# Windows System Admin Tools - Git Ignore File
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# PowerShell
+*.ps1.log
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# IDE files
+.vscode/
+.vs/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files
+test/
+tests/
+*.test.ps1
+
+# Personal configuration files (if you add them later)
+config.json
+settings.json
+*.config
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
